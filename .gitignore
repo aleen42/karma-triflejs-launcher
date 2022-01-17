@@ -1,0 +1,4 @@
+karma-triflejs-launcher.iml
+.idea/*
+TrifleJS/*
+node_modules/*

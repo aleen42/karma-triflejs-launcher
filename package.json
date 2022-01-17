@@ -1,0 +1,33 @@
+{
+  "name": "@aleen42/karma-triflejs-launcher",
+  "version": "1.0.0",
+  "description": "A karma launcher for using TrifleJS to launch IEs.",
+  "main": "index.js",
+  "scripts": {
+    "prepublishOnly": "eslint --ext .js . && node install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleen42/karma-triflejs-launcher.git"
+  },
+  "keywords": [
+    "karma",
+    "launcher",
+    "TrifleJS"
+  ],
+  "author": "\"Aleen\" <aleen42@vip.qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "http://github.com/aleen42/karma-triflejs-launcher/issues"
+  },
+  "homepage": "https://github.com/aleen42/karma-triflejs-launcher#readme",
+  "dependencies": {
+    "qjobs": "^1.2.0",
+    "request": "^2.53.0",
+    "unzipper": "^0.10.11"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-aleen42": "^1.0.7"
+  }
+}
